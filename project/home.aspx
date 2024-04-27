@@ -7,7 +7,9 @@
      <style>
          body{
              background-image: url("./theater.jpg");
+             background-repeat:no-repeat;
              background-position-x:center;
+             background-color:darkgoldenrod;
          }
          .mainContent{
              display:grid;

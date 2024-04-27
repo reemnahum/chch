@@ -4,7 +4,6 @@
 
 <html>
 <head runat="server">
-    <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style>
@@ -49,8 +48,10 @@
                     <li class="home1"><a class="a1" href="register.aspx">Register</a></li>
                 </ul>
             </nav>
+        </div>
+    <main>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
-        </div>
+        </main>z
 </body>
 </html>

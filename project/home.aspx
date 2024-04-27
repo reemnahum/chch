@@ -11,17 +11,23 @@
          }
          .mainContent{
              display:grid;
-             grid-template-columns:repeat(auto-fill,minmax(200px,1fr))
+             grid-template-columns:repeat(auto-fill,minmax(400px,1fr))
+             
+         }
+         .movie{
+            padding-inline:10px;            
          }
          img{
-             width:300px;
+             width:350px;
              height:200px;
              object-fit:cover;
+             border:red solid thin;
+             cursor:pointer;
          }
          .scope{
              padding-top:20px;
              padding-inline:10px;
-             color:white
+             color:white;
          }
    </style>
 </asp:Content>
@@ -30,12 +36,20 @@
 
 
     <div class="mainContent">
-        <div id="wonka">
+        <div id="wonka" class="movie">
             <img src="./Images/wonka.jpg" alt="wonka logo"/>
             <p>
                 Movie Name: Wonka <br />
                 Imdb rating: 7.1 <br />
                 Length in minutes: 112m
+            </p>
+        </div>
+        <div class="movie">
+            <img src="./Images/kingsmen-secret.jpeg" alt="kingsmen the secret service"/>
+            <p>
+                Movie Name: kingsman: the secret service <br />
+                Imdb rating: 7.7 <br />
+                Length in minutes: 130m
             </p>
         </div>
 

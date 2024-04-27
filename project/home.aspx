@@ -47,13 +47,46 @@
             </p>
         </div>
         <div class="movie">
-            <img src="./Images/kingsmen-secret.jpeg" alt="kingsmen the secret service"/>
+            <img src="./Images/kingsmen-secret.jpeg" alt="kingsman the secret service"/>
             <p>
                 Movie Name: kingsman: the secret service <br />
                 Imdb rating: 7.7 <br />
                 Length in minutes: 130m
             </p>
         </div>
+        <div class="movie">
+    <img src="./Images/kingsmen-circle.jpg" alt="kingsman the golden circle"/>
+    <p>
+        Movie Name: kingsman: the golden circle <br />
+        Imdb rating: 6.7 <br />
+        Length in minutes: 141m
+    </p>
+        </div>
+    <div class="movie">
+    <img src="./Images/saw.png" alt="saw x"/>
+    <p>
+        Movie Series Name: saw<br />
+        Average imdb rating: 6.1 <br />
+        Average length in minutes: 130m<br />
+        Amount of movies: 10
+    </p>
+</div>
+        <div class="movie">
+    <img src="./Images/truman.jpg" alt="the truman show"/>
+    <p>
+        Movie Name: The truman show<br />
+        Imdb rating: 8.2 <br />
+        Length in minutes: 103m
+    </p>
+</div>
+        <div class="movie">
+    <img src="./Images/hazbin.jpg" alt="hazbin"/>
+    <p>
+        show Name: hazbin hotel <br />
+        Imdb rating: 8.7 <br />
+        Average episode length: 23m
+    </p>
+</div>
 
     </div>
             </div>

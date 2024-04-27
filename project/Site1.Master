@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="project.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        body{
+            overflow-y:hidden;
+        }
+        .ul1 {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .home1 {
+            display: inline-block;
+            padding-left: 21%;
+        }
+
+        .home1 .a1 {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+           
+        }
+        .nav1 {
+            background-color: #333;
+            padding: 10px 0;
+        }
+
+        .home1 .a1:hover {
+            background-color: #555;
+            transition: 0.4s;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <nav class="nav1">
+                <ul class="ul1">
+                    <li class="home1"><a class="a1" href="home.aspx">Home</a></li>
+                    <li class="home1"><a class="a1" href="login.aspx">Login</a></li>
+                    <li class="home1"><a class="a1" href="register.aspx">Register</a></li>
+                </ul>
+            </nav>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+</body>
+</html>

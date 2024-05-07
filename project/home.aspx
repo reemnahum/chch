@@ -11,17 +11,22 @@
              background-position-x:center;
              background-color:darkgoldenrod;
          }
-         .mainContent{
-             display:grid;
-             grid-template-columns:repeat(auto-fill,minmax(400px,1fr))
-             
-         }
+.mainContent {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    overflow-x: auto; 
+    overflow-y: auto;
+    max-height: 100vh; 
+    justify-items:center;
+    width:100%;
+}
+
          .movie{
             padding-inline:10px;            
          }
          img{
-             width:350px;
-             height:200px;
+             width:450px;
+             height:300px;
              object-fit:cover;
              border:red solid thin;
              cursor:pointer;
